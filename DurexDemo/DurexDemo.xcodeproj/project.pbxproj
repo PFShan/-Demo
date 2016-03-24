@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64B4031E1BBB5FF900818DBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B4031D1BBB5FF900818DBC /* main.m */; };
+		64B403211BBB5FF900818DBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B403201BBB5FF900818DBC /* AppDelegate.m */; };
+		64B403241BBB5FF900818DBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B403231BBB5FF900818DBC /* ViewController.m */; };
+		64B403271BBB5FF900818DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B403251BBB5FF900818DBC /* Main.storyboard */; };
+		64B403291BBB5FF900818DBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B403281BBB5FF900818DBC /* Images.xcassets */; };
+		64B4032C1BBB5FF900818DBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B4032A1BBB5FF900818DBC /* LaunchScreen.xib */; };
+		64B403381BBB5FF900818DBC /* DurexDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B403371BBB5FF900818DBC /* DurexDemoTests.m */; };
+		64BE87DA1BC7ED0C00696ED5 /* NSArray+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE87C11BC7ED0C00696ED5 /* NSArray+SafeKit.m */; };
+		64BE87DB1BC7ED0C00696ED5 /* NSDictionary+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE87C31BC7ED0C00696ED5 /* NSDictionary+SafeKit.m */; };
+		64BE87DC1BC7ED0C00696ED5 /* NSMutableArray+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE87C51BC7ED0C00696ED5 /* NSMutableArray+SafeKit.m */; };
+		64BE87DD1BC7ED0C00696ED5 /* NSMutableDictionary+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE87C71BC7ED0C00696ED5 /* NSMutableDictionary+SafeKit.m */; };
+		64BE87DE1BC7ED0C00696ED5 /* NSMutableString+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE87C91BC7ED0C00696ED5 /* NSMutableString+SafeKit.m */; };
+		64BE87DF1BC7ED0C00696ED5 /* NSObject+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE87CB1BC7ED0C00696ED5 /* NSObject+SafeKit.m */; };
+		64BE87E01BC7ED0C00696ED5 /* NSString+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE87CD1BC7ED0C00696ED5 /* NSString+SafeKit.m */; };
+		64BE87E11BC7ED0C00696ED5 /* NSException+SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE87D01BC7ED0C00696ED5 /* NSException+SafeKit.m */; };
+		64BE87E21BC7ED0C00696ED5 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE87D21BC7ED0C00696ED5 /* NSObject+Swizzle.m */; };
+		64BE87E31BC7ED0C00696ED5 /* SafeKitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE87D41BC7ED0C00696ED5 /* SafeKitConfig.m */; };
+		64BE87E41BC7ED0C00696ED5 /* SafeKitLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE87D71BC7ED0C00696ED5 /* SafeKitLog.m */; };
+		64BE87E51BC7ED0C00696ED5 /* SafeKitMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE87D91BC7ED0C00696ED5 /* SafeKitMacro.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64B403321BBB5FF900818DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64B403101BBB5FF900818DBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B403171BBB5FF900818DBC;
+			remoteInfo = DurexDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64B403181BBB5FF900818DBC /* DurexDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DurexDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B4031C1BBB5FF900818DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B4031D1BBB5FF900818DBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64B4031F1BBB5FF900818DBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64B403201BBB5FF900818DBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64B403221BBB5FF900818DBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64B403231BBB5FF900818DBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64B403261BBB5FF900818DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64B403281BBB5FF900818DBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64B4032B1BBB5FF900818DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		64B403311BBB5FF900818DBC /* DurexDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DurexDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B403361BBB5FF900818DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B403371BBB5FF900818DBC /* DurexDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DurexDemoTests.m; sourceTree = "<group>"; };
+		64BE87BD1BC7ED0C00696ED5 /* DurexKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DurexKit.h; sourceTree = "<group>"; };
+		64BE87BF1BC7ED0C00696ED5 /* Foundation+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Foundation+SafeKit.h"; sourceTree = "<group>"; };
+		64BE87C01BC7ED0C00696ED5 /* NSArray+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeKit.h"; sourceTree = "<group>"; };
+		64BE87C11BC7ED0C00696ED5 /* NSArray+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeKit.m"; sourceTree = "<group>"; };
+		64BE87C21BC7ED0C00696ED5 /* NSDictionary+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeKit.h"; sourceTree = "<group>"; };
+		64BE87C31BC7ED0C00696ED5 /* NSDictionary+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeKit.m"; sourceTree = "<group>"; };
+		64BE87C41BC7ED0C00696ED5 /* NSMutableArray+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SafeKit.h"; sourceTree = "<group>"; };
+		64BE87C51BC7ED0C00696ED5 /* NSMutableArray+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SafeKit.m"; sourceTree = "<group>"; };
+		64BE87C61BC7ED0C00696ED5 /* NSMutableDictionary+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+SafeKit.h"; sourceTree = "<group>"; };
+		64BE87C71BC7ED0C00696ED5 /* NSMutableDictionary+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+SafeKit.m"; sourceTree = "<group>"; };
+		64BE87C81BC7ED0C00696ED5 /* NSMutableString+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+SafeKit.h"; sourceTree = "<group>"; };
+		64BE87C91BC7ED0C00696ED5 /* NSMutableString+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+SafeKit.m"; sourceTree = "<group>"; };
+		64BE87CA1BC7ED0C00696ED5 /* NSObject+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeKit.h"; sourceTree = "<group>"; };
+		64BE87CB1BC7ED0C00696ED5 /* NSObject+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeKit.m"; sourceTree = "<group>"; };
+		64BE87CC1BC7ED0C00696ED5 /* NSString+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SafeKit.h"; sourceTree = "<group>"; };
+		64BE87CD1BC7ED0C00696ED5 /* NSString+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SafeKit.m"; sourceTree = "<group>"; };
+		64BE87CF1BC7ED0C00696ED5 /* NSException+SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+SafeKit.h"; sourceTree = "<group>"; };
+		64BE87D01BC7ED0C00696ED5 /* NSException+SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+SafeKit.m"; sourceTree = "<group>"; };
+		64BE87D11BC7ED0C00696ED5 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		64BE87D21BC7ED0C00696ED5 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		64BE87D31BC7ED0C00696ED5 /* SafeKitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeKitConfig.h; sourceTree = "<group>"; };
+		64BE87D41BC7ED0C00696ED5 /* SafeKitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeKitConfig.m; sourceTree = "<group>"; };
+		64BE87D51BC7ED0C00696ED5 /* SafeKitCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeKitCore.h; sourceTree = "<group>"; };
+		64BE87D61BC7ED0C00696ED5 /* SafeKitLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeKitLog.h; sourceTree = "<group>"; };
+		64BE87D71BC7ED0C00696ED5 /* SafeKitLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeKitLog.m; sourceTree = "<group>"; };
+		64BE87D81BC7ED0C00696ED5 /* SafeKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeKitMacro.h; sourceTree = "<group>"; };
+		64BE87D91BC7ED0C00696ED5 /* SafeKitMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeKitMacro.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64B403151BBB5FF900818DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B4032E1BBB5FF900818DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64B4030F1BBB5FF900818DBC = {
+			isa = PBXGroup;
+			children = (
+				64B403411BBB600000818DBC /* Libs */,
+				64B4031A1BBB5FF900818DBC /* DurexDemo */,
+				64B403341BBB5FF900818DBC /* DurexDemoTests */,
+				64B403191BBB5FF900818DBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64B403191BBB5FF900818DBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64B403181BBB5FF900818DBC /* DurexDemo.app */,
+				64B403311BBB5FF900818DBC /* DurexDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64B4031A1BBB5FF900818DBC /* DurexDemo */ = {
+			isa = PBXGroup;
+			children = (
+				64B4031F1BBB5FF900818DBC /* AppDelegate.h */,
+				64B403201BBB5FF900818DBC /* AppDelegate.m */,
+				64B403221BBB5FF900818DBC /* ViewController.h */,
+				64B403231BBB5FF900818DBC /* ViewController.m */,
+				64B403251BBB5FF900818DBC /* Main.storyboard */,
+				64B403281BBB5FF900818DBC /* Images.xcassets */,
+				64B4032A1BBB5FF900818DBC /* LaunchScreen.xib */,
+				64B4031B1BBB5FF900818DBC /* Supporting Files */,
+			);
+			path = DurexDemo;
+			sourceTree = "<group>";
+		};
+		64B4031B1BBB5FF900818DBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B4031C1BBB5FF900818DBC /* Info.plist */,
+				64B4031D1BBB5FF900818DBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64B403341BBB5FF900818DBC /* DurexDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				64B403371BBB5FF900818DBC /* DurexDemoTests.m */,
+				64B403351BBB5FF900818DBC /* Supporting Files */,
+			);
+			path = DurexDemoTests;
+			sourceTree = "<group>";
+		};
+		64B403351BBB5FF900818DBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B403361BBB5FF900818DBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64B403411BBB600000818DBC /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				64BE87BC1BC7ED0C00696ED5 /* DurexKit */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		64BE87BC1BC7ED0C00696ED5 /* DurexKit */ = {
+			isa = PBXGroup;
+			children = (
+				64BE87BD1BC7ED0C00696ED5 /* DurexKit.h */,
+				64BE87BE1BC7ED0C00696ED5 /* Foundation */,
+				64BE87CE1BC7ED0C00696ED5 /* SafeCore */,
+			);
+			path = DurexKit;
+			sourceTree = "<group>";
+		};
+		64BE87BE1BC7ED0C00696ED5 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				64BE87BF1BC7ED0C00696ED5 /* Foundation+SafeKit.h */,
+				64BE87C01BC7ED0C00696ED5 /* NSArray+SafeKit.h */,
+				64BE87C11BC7ED0C00696ED5 /* NSArray+SafeKit.m */,
+				64BE87C21BC7ED0C00696ED5 /* NSDictionary+SafeKit.h */,
+				64BE87C31BC7ED0C00696ED5 /* NSDictionary+SafeKit.m */,
+				64BE87C41BC7ED0C00696ED5 /* NSMutableArray+SafeKit.h */,
+				64BE87C51BC7ED0C00696ED5 /* NSMutableArray+SafeKit.m */,
+				64BE87C61BC7ED0C00696ED5 /* NSMutableDictionary+SafeKit.h */,
+				64BE87C71BC7ED0C00696ED5 /* NSMutableDictionary+SafeKit.m */,
+				64BE87C81BC7ED0C00696ED5 /* NSMutableString+SafeKit.h */,
+				64BE87C91BC7ED0C00696ED5 /* NSMutableString+SafeKit.m */,
+				64BE87CA1BC7ED0C00696ED5 /* NSObject+SafeKit.h */,
+				64BE87CB1BC7ED0C00696ED5 /* NSObject+SafeKit.m */,
+				64BE87CC1BC7ED0C00696ED5 /* NSString+SafeKit.h */,
+				64BE87CD1BC7ED0C00696ED5 /* NSString+SafeKit.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		64BE87CE1BC7ED0C00696ED5 /* SafeCore */ = {
+			isa = PBXGroup;
+			children = (
+				64BE87CF1BC7ED0C00696ED5 /* NSException+SafeKit.h */,
+				64BE87D01BC7ED0C00696ED5 /* NSException+SafeKit.m */,
+				64BE87D11BC7ED0C00696ED5 /* NSObject+Swizzle.h */,
+				64BE87D21BC7ED0C00696ED5 /* NSObject+Swizzle.m */,
+				64BE87D31BC7ED0C00696ED5 /* SafeKitConfig.h */,
+				64BE87D41BC7ED0C00696ED5 /* SafeKitConfig.m */,
+				64BE87D51BC7ED0C00696ED5 /* SafeKitCore.h */,
+				64BE87D61BC7ED0C00696ED5 /* SafeKitLog.h */,
+				64BE87D71BC7ED0C00696ED5 /* SafeKitLog.m */,
+				64BE87D81BC7ED0C00696ED5 /* SafeKitMacro.h */,
+				64BE87D91BC7ED0C00696ED5 /* SafeKitMacro.m */,
+			);
+			path = SafeCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64B403171BBB5FF900818DBC /* DurexDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B4033B1BBB5FF900818DBC /* Build configuration list for PBXNativeTarget "DurexDemo" */;
+			buildPhases = (
+				64B403141BBB5FF900818DBC /* Sources */,
+				64B403151BBB5FF900818DBC /* Frameworks */,
+				64B403161BBB5FF900818DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DurexDemo;
+			productName = DurexDemo;
+			productReference = 64B403181BBB5FF900818DBC /* DurexDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64B403301BBB5FF900818DBC /* DurexDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B4033E1BBB5FF900818DBC /* Build configuration list for PBXNativeTarget "DurexDemoTests" */;
+			buildPhases = (
+				64B4032D1BBB5FF900818DBC /* Sources */,
+				64B4032E1BBB5FF900818DBC /* Frameworks */,
+				64B4032F1BBB5FF900818DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64B403331BBB5FF900818DBC /* PBXTargetDependency */,
+			);
+			name = DurexDemoTests;
+			productName = DurexDemoTests;
+			productReference = 64B403311BBB5FF900818DBC /* DurexDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64B403101BBB5FF900818DBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = lzxuan;
+				TargetAttributes = {
+					64B403171BBB5FF900818DBC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					64B403301BBB5FF900818DBC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 64B403171BBB5FF900818DBC;
+					};
+				};
+			};
+			buildConfigurationList = 64B403131BBB5FF900818DBC /* Build configuration list for PBXProject "DurexDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64B4030F1BBB5FF900818DBC;
+			productRefGroup = 64B403191BBB5FF900818DBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64B403171BBB5FF900818DBC /* DurexDemo */,
+				64B403301BBB5FF900818DBC /* DurexDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64B403161BBB5FF900818DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B403271BBB5FF900818DBC /* Main.storyboard in Resources */,
+				64B4032C1BBB5FF900818DBC /* LaunchScreen.xib in Resources */,
+				64B403291BBB5FF900818DBC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B4032F1BBB5FF900818DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64B403141BBB5FF900818DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BE87E21BC7ED0C00696ED5 /* NSObject+Swizzle.m in Sources */,
+				64BE87DE1BC7ED0C00696ED5 /* NSMutableString+SafeKit.m in Sources */,
+				64BE87E11BC7ED0C00696ED5 /* NSException+SafeKit.m in Sources */,
+				64B403241BBB5FF900818DBC /* ViewController.m in Sources */,
+				64BE87DC1BC7ED0C00696ED5 /* NSMutableArray+SafeKit.m in Sources */,
+				64BE87DD1BC7ED0C00696ED5 /* NSMutableDictionary+SafeKit.m in Sources */,
+				64BE87DF1BC7ED0C00696ED5 /* NSObject+SafeKit.m in Sources */,
+				64B403211BBB5FF900818DBC /* AppDelegate.m in Sources */,
+				64BE87E41BC7ED0C00696ED5 /* SafeKitLog.m in Sources */,
+				64BE87DA1BC7ED0C00696ED5 /* NSArray+SafeKit.m in Sources */,
+				64BE87E51BC7ED0C00696ED5 /* SafeKitMacro.m in Sources */,
+				64BE87E31BC7ED0C00696ED5 /* SafeKitConfig.m in Sources */,
+				64BE87E01BC7ED0C00696ED5 /* NSString+SafeKit.m in Sources */,
+				64B4031E1BBB5FF900818DBC /* main.m in Sources */,
+				64BE87DB1BC7ED0C00696ED5 /* NSDictionary+SafeKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B4032D1BBB5FF900818DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B403381BBB5FF900818DBC /* DurexDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64B403331BBB5FF900818DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B403171BBB5FF900818DBC /* DurexDemo */;
+			targetProxy = 64B403321BBB5FF900818DBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64B403251BBB5FF900818DBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B403261BBB5FF900818DBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64B4032A1BBB5FF900818DBC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B4032B1BBB5FF900818DBC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64B403391BBB5FF900818DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64B4033A1BBB5FF900818DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64B4033C1BBB5FF900818DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DurexDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64B4033D1BBB5FF900818DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DurexDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64B4033F1BBB5FF900818DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DurexDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DurexDemo.app/DurexDemo";
+			};
+			name = Debug;
+		};
+		64B403401BBB5FF900818DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DurexDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DurexDemo.app/DurexDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64B403131BBB5FF900818DBC /* Build configuration list for PBXProject "DurexDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B403391BBB5FF900818DBC /* Debug */,
+				64B4033A1BBB5FF900818DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B4033B1BBB5FF900818DBC /* Build configuration list for PBXNativeTarget "DurexDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B4033C1BBB5FF900818DBC /* Debug */,
+				64B4033D1BBB5FF900818DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B4033E1BBB5FF900818DBC /* Build configuration list for PBXNativeTarget "DurexDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B4033F1BBB5FF900818DBC /* Debug */,
+				64B403401BBB5FF900818DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64B403101BBB5FF900818DBC /* Project object */;
+}
